@@ -19,8 +19,8 @@ class ServiceV1 :public ISprint0Task8V0
 			return false;
 		}
 		else
-		{
-			return 24;
+		{  
+			return stoi(to_string(sa.at(0))) * stoi(to_string(sa.at(1))) * stoi(to_string(sa.at(2)));
 		}
 	}
 };
